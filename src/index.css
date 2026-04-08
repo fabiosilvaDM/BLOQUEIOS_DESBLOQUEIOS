@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Jost", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background-color: #fdfbf7;
+  color: #3e2723;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 3D Icon Container Effect */
+.icon-container-3d {
+  background: linear-gradient(145deg, #ffffff, #f0ebe1);
+  box-shadow: 6px 6px 12px #e0dcd3, -6px -6px 12px #ffffff;
+}
+
+.icon-container-3d:hover {
+  box-shadow: 8px 8px 16px #d5d0c6, -8px -8px 16px #ffffff;
+}
+
+/* 3D Icon Effect */
+.icon-3d {
+  filter: drop-shadow(2px 3px 2px rgba(0, 0, 0, 0.15));
+}

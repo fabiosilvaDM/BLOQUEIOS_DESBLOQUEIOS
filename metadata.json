@@ -1,0 +1,5 @@
+{
+  "name": "Gestão de Bloqueios",
+  "description": "Aplicação minimalista para consulta de procedimentos de bloqueio de clientes e fornecedores.",
+  "requestFramePermissions": []
+}
